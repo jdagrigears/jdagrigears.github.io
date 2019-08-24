@@ -1,0 +1,64 @@
+/* Bootstrap theme customized with Pinegrow Web Editor */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+/* Vars go before the @import */
+$blue: #007bff;
+$brand-green: #64a507;
+$primary: $brand-green;
+$headings-font-family: "Montserrat";
+$navbar-light-active-color: $brand-green;
+/* Import the Bootstrap files */
+@import "bootstrap/bootstrap";
+
+/* Custom CSS rules come here */
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  color: #333;
+}
+
+.heading-border{
+  line-height: 1.4;
+  border-left: 5px solid #64a507;
+  p{
+    color: $brand-green;
+    font-family: "Open Sans";
+    letter-spacing: .8px;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+}
+
+.navbar{
+  z-index: 100;
+}
+
+.navbar-nav{
+  font-size: .9rem;
+  
+}
+
+.montserrat {
+    font-family: "Montserrat";
+}
+
+.montserrat-bold {
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.montserrat-superbold {
+  font-size: 2rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+p{
+  font-family: "Open Sans";
+  line-height: 1.6;
+  letter-spacing: .8px;
+}
+
+a{
+  text-decoration: none;
+}
